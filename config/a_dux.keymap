@@ -15,10 +15,10 @@
 		// This is a sample keymap intended to be replaced with your own
 		base_layer {
 			bindings = <
-				&kp K     &kp L     &kp F     &kp P     &kp B     &kp Q     &kp J     &kp O     &kp U     &kp SEMI
-				&kp H     &kp R     &kp S     &kp T     &kp G     &kp X     &kp N     &kp E     &kp I     &kp A
-				&kp M     &kp W     &kp C     &kp D     &kp V     &kp Z     &kp Y     &kp APOS  &kp DOT   &kp COMMA
-				                              &kp TAB   &kp BSPC  &kp SPACE &kp ENTER
+				&kp K     &kp L          &kp F          &kp P     &kp B        &kp Q     &kp J     &kp O          &kp U          &kp SEMI
+				&kp H     &kp R          &kp S          &kp T     &kp G        &kp X     &kp N     &kp E          &kp I          &kp A
+				&kp M     &mt LALT W     &mt LCTL C     &kp D     &kp V        &kp Z     &kp Y     &mt RCTL APOS  &mt RALT DOT   &kp COMMA
+				                                        &kp BSPC  &kp LSHIFT   &kp RGUI  &kp SPC
 			>;
 		};
 
